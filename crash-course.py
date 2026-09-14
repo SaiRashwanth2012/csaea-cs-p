@@ -97,23 +97,23 @@ else:
     print("Reached else")
 
 
-if 1 > 11 and 45 < 3: 
+if 1 > 1 and 1 == 1: 
     print("Reached the first condition")
-elif 13 == 7 or 3 != 3:
+elif 6 == 7 or 3 != 3:
     print("Reached second condition")
-elif 9 != 9: 
-    print("Reached the third condition")    
+elif 10 != 10:
+    print("Reached third condition")
 else: 
     print("Reached else")
 
-    # LISTS
-    # A list can hold any type, and can grow or shrink at any time.
+# LISTS
+# A list can hold any type, and can grow or shrink at any time.
 
 #index: 0   1   2   3   4
 nums = [34, 52, 3, 64, 32]
 
 print(nums)
-print(nums[3]) 
+print(nums[3]) #predict
 print(nums[0])
 print(nums[-1])
 print(nums[-3])
@@ -123,7 +123,7 @@ nums[0] = 64
 print(nums)
 
 # LIST METHODS
-#Special built-in methods
+# Special built-in methods
 
 words = []
 
@@ -138,3 +138,53 @@ words[1] = "Word 5"
 length = len(words)
 print(words)
 print(length)
+
+# ITERATION
+
+# For Loop
+# A for loop will iterate over a RANGE.
+# A range is a range of numbers. 
+# # range(stop), range(start, stop), range( start, stop, step)
+print()
+for i in range(5):
+    print(i)
+
+animals = ["Sheep", "Deer", "Moose"]
+print(f"List: {animals}")
+
+for animal in animals:
+    print(f"We saw {animal}")
+
+nums = [5.1, 2.2, 5.3, 3.4, 8.5, 9.9]
+
+# for n in nums:
+#     print(n + 1)
+#write a for loop to print each value in list nums
+
+for i in range(len(nums)):
+    print(nums[i])
+
+# Debugging
+print(len(nums))
+print(range(5))
+
+for i in range(0,5):
+    print(nums[i])
+
+# while loop
+
+# iteratues while a condition is true
+# when the condition becomes false, it stops
+
+x = 5
+
+while x < 10:
+    print(x)
+    x += 1
+    
+t = True
+f = False
+
+
+while t or f:
+    print("hi")
