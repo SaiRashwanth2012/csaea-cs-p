@@ -185,6 +185,3 @@ while x < 10:
 t = True
 f = False
 
-
-while t or f:
-    print("hi")
