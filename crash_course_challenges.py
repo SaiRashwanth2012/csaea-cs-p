@@ -26,12 +26,31 @@ last = "Lovelace"
 school = "CSAEA" 
 print(f"Hello, my name is {first} {last} from {school}.")
 
-# Question 9
+# Question 11
+start = 10
+while start > 0:        
+    print(start)
+    start -= 1
+if start == 0:
+    print ("Liftoff")
 
-cart = [12, 5, 30, 8]
+# Question 15
+grades = [88, 65, 72, 91, 54, 70]
+passing = 70
+
+if grades < 70:
+    print ("Failed")
  
 # <Your Code Here>
 print()
+
+   
+
+ 
+# <Your Code Here>
+print()
+
+
 
     
  
