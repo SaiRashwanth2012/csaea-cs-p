@@ -38,29 +38,67 @@ if start == 0:
 grades = [88, 65, 72, 91, 54, 70]
 passing = 70
 
-if grades < 70:
-    print ("Failed")
+if grades[0] >= 70:
+    print("0 passed")
+else:
+    print("0 Failed")
+if grades[1] >= 70:
+    print("1 passed")
+else:
+    print("1 Failed")
+if grades[2] >= 70:
+    print("2 passed")
+else:
+    print("2 Failed")
+if grades[3] >= 70:
+    print("3 passed")
+else:
+    print("3 Failed")
+if grades[4] >= 70:
+    print("4 passed")
+else:
+    print("4 Failed")
+if grades[5] >= 70:
+    print("5 passed")
+else:
+    print("5 Failed")
+# Question 3
+import math
+
+fahrenheit = 83
+
+celsius = (fahrenheit - 32) * 5 / 9
+
+print(f"{fahrenheit}°F is {round(celsius, 2)}°C")
+
  
 # <Your Code Here>
 print()
 
-   
+# Question 20
+
+speed_limit = 55
+speed = 100
+
+mph_over = speed - speed_limit
+
+if mph_over <= 0:
+    result = "No violation"
+elif mph_over <= 10:
+    result = "Warning"
+elif mph_over <= 20:
+    result = "$100 fine"
+else:
+    result = "$250 fine"
+
+print(result)
+
+# Question 7
+height = 50
+age = 8
+has_adult = True
+if height > 48 and age > 10 and has_adult = True:
 
  
 # <Your Code Here>
-print()
 
-
-
-    
- 
-
-
-
-
- 
-   
- 
-
-
-    
