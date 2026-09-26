@@ -97,8 +97,27 @@ print(result)
 height = 50
 age = 8
 has_adult = True
-if height > 48 and age > 10 and has_adult = True:
+if height >= 48:
+    if age >= 10 or has_adult == True:
+        print("You may ride.")
+    else:
+        print("You may NOT ride.")
+
+ 
+# Question 18
+import random
+playlist = ["Intro", "Song A", "Song B", "Finale"]
+random.shuffle(playlist)
+print(playlist)
+ 
+print()
+
+import math
+ 
+minutes_parked = 50
+block_length = 15
+cost_per_block = 1
 
  
 # <Your Code Here>
-
+print()
