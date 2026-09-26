@@ -77,8 +77,8 @@ print(end + "\n")
 
 # MATH LIBRARY (import math at the top of the document)
 
-print(math.sqrt(14))
-print(math.ceil(3.65))
+print("sqrt value=",math.sqrt(14))
+print("ceil value=",math.ceil(3.65))
 print(math.floor(8.94))
 print(math.pow(2, 4))
 
