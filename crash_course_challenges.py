@@ -14,7 +14,7 @@ elif score >= 50 and score <= 60:
     print("F")
 
 print("End of # Question 4")
-
+2
 # 5 Login Screen
 print("Start of # Question 5")
 
@@ -79,11 +79,11 @@ print("End of # Question 15")
 print("Start of # Question 3")
 import math
 
-fahrenheit = 83
+fahrenheit = 32
 
 celsius = (fahrenheit - 32) * 5 / 9
 
-print(f"{fahrenheit}°F is {round(celsius, 2)}°C")
+print(f"{fahrenheit}°F is {(celsius, 2)}°C")
 print("End of # Question 3")
 
 # Question 20
