@@ -51,3 +51,10 @@ print(total)
 # Use a temporary variable.  
 # Hint: You will need to create one new variable. 
 
+num = 4
+y = "hello"
+num2 = num
+num = y
+print(num)
+y = num2
+print(y)
