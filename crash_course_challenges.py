@@ -14,7 +14,7 @@ elif score >= 50 and score <= 60:
     print("F")
 
 print("End of # Question 4")
-2
+
 # 5 Login Screen
 print("Start of # Question 5")
 
@@ -110,9 +110,9 @@ height = 50
 age = 8
 has_adult = True
 if height >= 48:
-    if age >= 10 or has_adult == True:
+   if age >= 10 or has_adult == True:
         print("You may ride.")
-    else:
+else:
         print("You may NOT ride.")
 
 print("End of # Question 7")
