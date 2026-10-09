@@ -33,8 +33,11 @@ print(f"Circle area: {circle_area}")
 
 seed = 756.22
 step1 = seed / 6.7
+print("Step 1 is:", step1)
 step2 = step1 - 800
+print("Step 2 is:", step2)
 step3 = step2 % 10
+print("Step 3 is:", step3)
 result = math.ceil(step3)
 print("Your random num is:", result)
 
