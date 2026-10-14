@@ -1,4 +1,6 @@
 # User Input in Python
+import math
+import random
 name = input("Enter your name: ")
 print(f"Hello {name}")
 
@@ -37,6 +39,15 @@ diameter = float(input("Enter the diameter: "))
 radius = diameter / 2
 area = 3.14159 * radius * radius
 print("The area is:", area)
+
+# Challenge 4: Custom Die Roll
+# Ask the user to enter how many sides the die should have.
+# Then simulate rolling the die once and print the result.
+sides = int(input("Enter the number of sides on the die: "))
+roll = random.randint(1, sides)
+print(f"You rolled a {roll}")
+
+
 
 
 
