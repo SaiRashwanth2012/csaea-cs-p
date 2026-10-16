@@ -35,7 +35,3 @@ print(type(num))
 print(type(msg))
 print(type(bool))
 print(type(num2))
-
-
-
-

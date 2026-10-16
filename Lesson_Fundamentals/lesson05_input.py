@@ -46,9 +46,3 @@ print("The area is:", area)
 sides = int(input("Enter the number of sides on the die: "))
 roll = random.randint(1, sides)
 print(f"You rolled a {roll}")
-
-
-
-
-
-

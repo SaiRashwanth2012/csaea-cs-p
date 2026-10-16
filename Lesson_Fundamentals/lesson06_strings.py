@@ -66,5 +66,18 @@ print("The characters from 2 to 6 are", word[1:7])
 
 first_name = input("Enter your First name: ")
 last_name = input("Enter your Last name: ")
-print(f"Formatted name: {last_name}, {first_name}")
+print(f"Formatted name: {last_name}, {first_name}") 
 
+
+
+character = "spOngEbOB SQuArePaNts"
+print("\nLowercase:", character.lower())
+print("Uppercase:", character.upper())
+print("Capitalize first letter:", character.capitalize())
+print("Title format:", character.title())
+
+print()
+
+#find and replace text
+sentence = "I'm a goofy goober."
+new_sentence = sentence.replace("I'm", "")

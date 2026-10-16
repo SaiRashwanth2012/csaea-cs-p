@@ -102,9 +102,3 @@ print("Exponent is:", exponent)
 num = math.pow(base,exponent)
 integer = int(num)
 print("The final number is", integer)
-
-
-
-
-
-
