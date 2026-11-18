@@ -108,4 +108,9 @@ floats = [6.0, 5.0, 4.0, 3.0, 2.0, 1.0]
 print("Length of floats:", len(floats))
 print("Min:", min(floats))
 print("Max:", max(floats))
+<<<<<<< HEAD
 print("Sum", sum(floats))
+=======
+print("Sum", sum(floats))
+
+>>>>>>> 0519c8af639faf64333a3cb6786b41400310d01e

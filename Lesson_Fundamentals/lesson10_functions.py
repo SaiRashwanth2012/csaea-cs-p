@@ -179,4 +179,21 @@ def analyze_word(word):
 
 
 result = analyze_word("pneumonoultramicroscopicsilicovolcanoconiosis")
+<<<<<<< HEAD
 print(result)
+=======
+print(result)
+
+
+
+    
+    
+
+
+
+
+
+
+
+    
+>>>>>>> 0519c8af639faf64333a3cb6786b41400310d01e
